@@ -1,0 +1,40 @@
+{
+  "name": "@diegomax/payway-ar-ts",
+  "version": "0.1.0",
+  "description": "SDK TypeScript para Payway AR en Node 22+.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "docs"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "docs": "typedoc",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "zod": "^3.24.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "typedoc": "^0.28.2",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.2"
+  }
+}
