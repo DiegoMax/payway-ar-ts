@@ -6,6 +6,9 @@
     "type": "git",
     "url": "https://github.com/DiegoMax/payway-ar-ts.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "type": "module",
   "engines": {
