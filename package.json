@@ -1,6 +1,6 @@
 {
   "name": "@diegomax/payway-ar-ts",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "SDK TypeScript para Payway AR en Node 22+.",
   "repository": {
     "type": "git",
